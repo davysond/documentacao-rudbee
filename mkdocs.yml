@@ -3,9 +3,9 @@ nav:
   - Home: index.md
   - Sobre o RudBee: about.md
   - Instalação: installation.md
-  - Configuração das Dependências - GenB: configuration.md
-  - Criação, Validação e Login de Usuários no RudBee: user.md
-  - Criação de Bases e Formulários: base-and-form.md
+  - Configuração das Dependências: configuration.md
+  - Validação e Login de Login no RudBee: user.md
+  - Bases e Formulários: base-and-form.md
 theme:
   name: material
   language: pt
@@ -23,8 +23,8 @@ theme:
   font:
     text: Inter
     code: Fira Code
-  # favicon: assets/images/favicon.ico
-  # logo: assets/images/logo.png
+  features:
+    - navigation.tabs
 extra_css:
   - assets/styles/extra.css
 extra:
