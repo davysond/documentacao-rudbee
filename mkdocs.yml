@@ -1,22 +1,37 @@
-site_name: Documentação - RudBee 
+site_name: Documentação do RudBee
 nav:
   - Home: index.md
-  - Sobre o RudBee: about.md
-  - Instalação: installation.md
-  - Configuração das Dependências: configuration.md
-  - Validação e Login de Login no RudBee: user.md
-  - Bases e Formulários: base-and-form.md
+  - Sobre o RudBee: sobre.md
+  - Manual de Instalação:
+      - Instalação: instalacao-rudbee.md
+      - Configuração das Dependências: configuracao-rudbee.md
+      - Validação e Login no RudBee: validacao-login.md
+  - Manual do Usuário:
+      - Bases e Formulários: base-formulario.md
 theme:
   name: material
   language: pt
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.ico
+  # palette:
+  #   - scheme: default
+  #     primary: custom
+  #     toggle:
+  #       icon: material/weather-night
+  #       name: Modo escuro
+  #   - scheme: slate
+  #     primary: custom
+  #     toggle:
+  #       icon: material/weather-sunny
+  #       name: Modo claro
   palette:
     - scheme: default
-      primary: custom
+      primary: red
       toggle:
         icon: material/weather-night
         name: Modo escuro
     - scheme: slate
-      primary: custom
+      primary: deep purple
       toggle:
         icon: material/weather-sunny
         name: Modo claro
@@ -26,7 +41,7 @@ theme:
   features:
     - navigation.tabs
 extra_css:
-  - assets/styles/extra.css
+  - assets/extra.css
 extra:
   social:
     - icon: fontawesome/brands/github
