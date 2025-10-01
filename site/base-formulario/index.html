@@ -9,18 +9,16 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../validacao-login/">
       
       
-        <link rel="next" href="../installation/">
       
-      
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/logo.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>Sobre o RudBee - Documentação - RudBee</title>
+        <title>Bases e Formulários - Documentação do RudBee</title>
       
     
     
@@ -46,7 +44,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/styles/extra.css">
+      <link rel="stylesheet" href="../assets/extra.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -65,13 +63,18 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#1-criacao-da-base" class="md-skip">
+          Ir para o conteúdo
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -83,10 +86,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href=".." title="Documentação - RudBee" class="md-header__button md-logo" aria-label="Documentação - RudBee" data-md-component="logo">
+    <a href=".." title="Documentação do RudBee" class="md-header__button md-logo" aria-label="Documentação do RudBee" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -97,13 +99,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Documentação - RudBee
+            Documentação do RudBee
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sobre o RudBee
+              Bases e Formulários
             
           </span>
         </div>
@@ -116,7 +118,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Modo escuro"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-label="Modo escuro"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Modo escuro" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
@@ -126,7 +128,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
@@ -219,11 +221,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../sobre/" class="md-tabs__link">
         
   
   
@@ -241,17 +241,18 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../installation/" class="md-tabs__link">
-        
-  
-  
     
+    
+      <li class="md-tabs__item">
+        <a href="../instalacao-rudbee/" class="md-tabs__link">
+          
   
-  Instalação
+  
+  Manual de Instalação
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -259,56 +260,21 @@
   
   
   
-  
-    <li class="md-tabs__item">
-      <a href="../configuration/" class="md-tabs__link">
-        
+    
   
   
     
-  
-  Configuração das Dependências
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../user/" class="md-tabs__link">
-        
-  
-  
     
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
   
-  Validação e Login de Login no RudBee
+  
+  Manual do Usuário
 
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../base-and-form/" class="md-tabs__link">
-        
-  
-  
+        </a>
+      </li>
     
-  
-  Bases e Formulários
-
-      </a>
-    </li>
   
 
       
@@ -334,13 +300,12 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Documentação - RudBee" class="md-nav__button md-logo" aria-label="Documentação - RudBee" data-md-component="logo">
+    <a href=".." title="Documentação do RudBee" class="md-nav__button md-logo" aria-label="Documentação do RudBee" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../assets/images/logo.png" alt="logo">
 
     </a>
-    Documentação - RudBee
+    Documentação do RudBee
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -371,17 +336,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../sobre/" class="md-nav__link">
         
   
   
@@ -392,7 +350,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -403,8 +360,49 @@
   
   
   
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Manual de Instalação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Manual de Instalação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../installation/" class="md-nav__link">
+      <a href="../instalacao-rudbee/" class="md-nav__link">
         
   
   
@@ -418,15 +416,16 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="../configuration/" class="md-nav__link">
+      <a href="../configuracao-rudbee/" class="md-nav__link">
         
   
   
@@ -440,20 +439,21 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="../user/" class="md-nav__link">
+      <a href="../validacao-login/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Validação e Login de Login no RudBee
+    Validação e Login no RudBee
     
   </span>
   
@@ -462,15 +462,89 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../base-and-form/" class="md-nav__link">
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Manual do Usuário
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Manual do Usuário
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Bases e Formulários
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -481,6 +555,98 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-criacao-da-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Criação da Base
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-informacoes-da-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Informações da Base
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-campos-da-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Campos da Base
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Campos da Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-campos-disponiveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de campos disponíveis:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criacao-de-formularios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criação de Formulários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Criação de Formulários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gerenciamento-do-formulario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gerenciamento do Formulário
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -503,6 +669,80 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-criacao-da-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Criação da Base
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-informacoes-da-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Informações da Base
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-campos-da-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Campos da Base
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Campos da Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-campos-disponiveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de campos disponíveis:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criacao-de-formularios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criação de Formulários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Criação de Formulários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gerenciamento-do-formulario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gerenciamento do Formulário
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -517,10 +757,64 @@
 
 
 
-  <h1>Sobre o RudBee</h1>
+  <h1>Bases e Formulários</h1>
 
-<p>Uma ferramenta de criação de bases documentais para quem não trabalha com programação.</p>
-<p>Solução para criação de aplicações de pequeno e médio porte sobre o mecanismo LightBase, é um front-end de criação de objetos complexos multidimensionais descritos em JSON e administrados pelo LightBase Toolkit, definidos pelo cliente de acordo com sua demanda e suas regras de negócio.</p>
+<p>A criação de bases no <strong>RudBee</strong> é o ponto inicial para estruturar qualquer aplicação. Nessa etapa, você define a organização das informações e os dados que irão compor seu sistema. A seguir, dividimos esse processo em três etapas principais:</p>
+<hr />
+<h3 id="1-criacao-da-base">1. Criação da Base</h3>
+<p>Ao acessar o painel do <strong>RudBee</strong>, você encontrará a opção para criar uma nova <strong>Base de Dados</strong>. Essa base funcionará como a estrutura principal que abrigará seus dados e formulários.</p>
+<p><img alt="Criação da base" src="../assets/images/base.png" /></p>
+<hr />
+<h3 id="2-informacoes-da-base">2. Informações da Base</h3>
+<p>Após iniciar a criação, será necessário preencher informações básicas como:</p>
+<ul>
+<li><strong>Nome da base</strong></li>
+<li><strong>Descrição</strong></li>
+</ul>
+<p>Essas informações são essenciais para organização e controle de acesso.</p>
+<p><img alt="Informações da base" src="../assets/images/info-base.png" /></p>
+<hr />
+<h3 id="3-campos-da-base">3. Campos da Base</h3>
+<p>A seguir, você define os <strong>campos de dados</strong> que sua base irá conter. O RudBee oferece uma ampla variedade de tipos de campo, permitindo construir estruturas de dados muito flexíveis e completas.</p>
+<h4 id="tipos-de-campos-disponiveis">Tipos de campos disponíveis:</h4>
+<ul>
+<li><strong>Text</strong> – Campo de texto simples</li>
+<li><strong>TextArea</strong> – Campo de texto longo (multilinha)</li>
+<li><strong>Select</strong> – Lista suspensa (dropdown) com opções pré-definidas</li>
+<li><strong>Date</strong> – Seleção de data</li>
+<li><strong>DateTime</strong> – Seleção de data e hora</li>
+<li><strong>Time</strong> – Seleção de horário</li>
+<li><strong>Number</strong> – Campo numérico</li>
+<li><strong>Email</strong> – Validação de formato de e-mail</li>
+<li><strong>Url</strong> – Campo de link/URL</li>
+<li><strong>Video</strong> – Upload ou link de vídeo</li>
+<li><strong>Audio</strong> – Upload ou link de áudio</li>
+<li><strong>Document</strong> – Upload de documentos</li>
+<li><strong>Image</strong> – Upload de imagens</li>
+<li><strong>Checkbox</strong> – Caixa de seleção (booleano)</li>
+<li><strong>JSON</strong> – Campo estruturado para dados em formato JSON</li>
+<li><strong>Money</strong> – Campo para valores monetários</li>
+<li><strong>Group</strong> – Agrupamento de campos (útil para seções ou blocos reutilizáveis)</li>
+<li><strong>Calculated Field</strong> – Campo de valor calculado automaticamente com base em outros campos</li>
+</ul>
+<p>Cada tipo possui configurações específicas, como:
+- <strong>Obrigatoriedade</strong>
+- <strong>Máscaras</strong></p>
+<p><img alt="Campos da base" src="../assets/images/fields.png" /></p>
+<hr />
+<h2 id="criacao-de-formularios">Criação de Formulários</h2>
+<p>Ao criar uma nova base no <strong>RudBee</strong>, um <strong>formulário</strong> padrão é gerado automaticamente. Esse formulário permite que os usuários insiram e visualizem os dados daquela base com base nos campos definidos.</p>
+<p><img alt="Formulário gerado automaticamente" src="../assets/images/form.png" /></p>
+<hr />
+<h3 id="gerenciamento-do-formulario">Gerenciamento do Formulário</h3>
+<p>Mesmo sendo gerado automaticamente, o formulário pode ser <strong>totalmente customizado</strong>:</p>
+<ul>
+<li>Inserir novos registros</li>
+<li>Gerenciar e Controlar Permissões dentro de cada formulário</li>
+<li>Importação de JSONs</li>
+</ul>
+<p>Isso permite criar uma experiência de uso mais eficiente e adaptada às necessidades do projeto.</p>
+<p><img alt="Gerenciamento de Formulários" src="../assets/images/options-forms.png" /></p>
 
 
 
